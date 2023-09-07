@@ -102,11 +102,11 @@ def serializar_visita(visita):
         'data_entrada': visita.get_data_entrada().isoformat()
     }
 
-"""def armazenar_registros():
+def armazenar_registros():
     registros_serializados = {visitante: serializar_visita(visita) for visitante, visita in dict_visitas.items()}
     with open("registros.json", "w") as file:
         json.dump(registros_serializados, file, indent=4)
-    print("Arquivo de registros criado")"""
+    print("Arquivo de registros criado")
 
 l_profissionais = []
 l_visitantes = []
@@ -133,7 +133,7 @@ Escolha:""")
     if escolha == "4":
         registrar_visita()
     if escolha == "5":
-        pass#armazenar_registros()
+        armazenar_registros()
     if escolha == "6":
         ler_profissionais()
         ler_visitantes()

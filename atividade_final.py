@@ -137,5 +137,7 @@ Escolha:""")
     if escolha == "6":
         ler_profissionais()
         ler_visitantes()
+    if escolha == "7":
+        print(dict_visitas)
     if escolha == "0":
         break

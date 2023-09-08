@@ -133,7 +133,7 @@ Escolha:""")
     if escolha == "4":
         registrar_visita()
     if escolha == "5":
-        armazenar_registros()
+        pass#armazenar_registros()
     if escolha == "6":
         ler_profissionais()
         ler_visitantes()
